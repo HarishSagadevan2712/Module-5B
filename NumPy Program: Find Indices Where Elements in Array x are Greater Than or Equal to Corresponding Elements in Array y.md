@@ -13,9 +13,18 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
+~~~
+import numpy as np
 
-Add code here
-
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+gt=np.where(x>y)
+eq=np.where(x==y)
+print(gt)
+print(eq)
+~~~
 ## Output
+![447080806-888696a6-84b7-4083-ad3f-f1002fc3cc4f](https://github.com/user-attachments/assets/54a74c10-af84-4325-be95-46711b69b5d9)
 
 ## Result
+Thus the program that sorts the elements in each column of a given 2D array in ascending order is executed successfully.
